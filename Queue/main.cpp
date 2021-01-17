@@ -20,6 +20,7 @@ void main()
 	system("pause");
 
 	cout << "Extracted: " << q.Extract() << endl;
+	q.Show();
 	system("pause");
 
 	q.Extract();

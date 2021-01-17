@@ -29,8 +29,10 @@ int Queue::Extract()
 		{
 			queue[i - 1] = queue[i];
 		}
-
-		queueLength--;
+		queue[queueLength - 1] = temp; // варіант кільцевої черги -
+		//замість видалення елемент переміщується в кінець черги
+		
+		//queueLength--;
 		return temp;
 	}
 
